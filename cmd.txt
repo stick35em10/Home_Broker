@@ -2,8 +2,11 @@
     1
         change text to 
             'Ao Pai agradou darvos o reino! Busca o Reino e a sua Justica e tudo o resto lhe sera acrescentado!'
-            git add src/main.ts cmd.txt .gitignore && git commit -m "modified: src/main.ts cmd.txt .gitignore " && git push -u origin main
-            
+            modified:   src/app.service.ts cmd.txt
+
+                git add src/app.service.ts cmd.txt && git commit -m "modified: src/app.service.ts cmd.txt " && git push -u origin main
+                git add src/app.controller.spec.ts cmd.txt && git commit -m "modified: src/main.ts cmd.txt " && git push -u origin main
+
     On https://dashboard.render.com/web/srv-curqpblsvqrc73aso4u0/deploys/dep-curqpc5svqrc73aso520
         Detected service running on port 10000
             modified:   src/main.ts
