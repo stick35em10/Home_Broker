@@ -1,0 +1,45 @@
+20.02.2025
+
+    git add src/app.module.ts && git rm src/assets/assets.module.ts && git commit -m " update src/app.module.ts && delete src/assets/assets.module.ts " && git push -u origin main    
+
+19.02.2025
+    unzip... Missing
+        sudo apt update && sudo apt upgrade -y
+        sudo apt install zip unzip
+
+    https://nodejs.org/en/download
+        # Download and install fnm:
+        curl -o- https://fnm.vercel.app/install | bash
+            FNM_PATH="/home/nelca/.local/share/fnm"
+            if [ -d "$FNM_PATH" ]; then
+                export PATH="$FNM_PATH:$PATH"
+                eval "`fnm env`"
+            fi
+        # Download and install Node.js:
+        fnm install 22
+        # Verify the Node.js version:
+        node -v # Should print "v22.14.0".
+        # Verify npm version:
+        npm -v # Should print "10.9.2".
+
+    sudo apt install npm
+    npm install -g @nestjs/cli
+    nest new nestjs-api
+        npm -- node package manage
+    cd nestjs-api
+        extensoes ideais para instalar: eslint, rest client, mongodb
+        npm run start:dev
+        Home_Broker_v720P
+
+        git commit -m "first commit"
+        git branch -M main
+        git remote add origin https://github.com/stick35em10/Home_Broker.git
+        git add .gitignore README.md nest-cli.json package-lock.json package.json src/ test/ tsconfig.build.json tsconfig.json && git commit -m " .gitignore README.md nest-cli.json package-lock.json package.json src/ test/ tsconfig.build.json tsconfig.json " && git push -u origin main
+        
+        git add .prettierrc eslint.config.mjs && git commit -m "add .prettierrc eslint.config.mjs" && git push -u origin main
+
+        nest generate module assets
+            git add src/app.module.ts src/assets/ && git commit -m " src/app.module.ts src/assets/ " && git push -u origin main
+        
+        nest generate controller assets
+            git add src/main.ts src/app.module.ts src/app.controller.ts  src/app.controller.spec.ts  && git commit -m " update add src/main.ts src/app.module.ts src/app.controller.ts  src/app.controller.spec.ts " && git push -u origin main
