@@ -1,6 +1,13 @@
 20.02.2025
+    11:00PM
+        criar um site que tenhe acesso ao dist como pasta de deploy
 
-    git add src/app.module.ts && git rm src/assets/assets.module.ts && git commit -m " update src/app.module.ts && delete src/assets/assets.module.ts " && git push -u origin main    
+        como usar um dist de nestjs no github
+            modified:   .gitignore
+            modified:   cmd.txt
+            git add dist/ cmd.txt .gitignore && git commit -m "add dist/ and update cmd.txt .gitignore" && git push -u origin main
+
+        git add src/app.module.ts && git rm src/assets/assets.module.ts && git commit -m " update src/app.module.ts && delete src/assets/assets.module.ts " && git push -u origin main    
 
 19.02.2025
     unzip... Missing
