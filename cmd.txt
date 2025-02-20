@@ -1,5 +1,15 @@
 21.02.2025
     1
+        add /dist  in .gitignore
+        nest g resource
+            assets, REST API, Y, 
+                dto: data transfer object
+                //
+            
+            git add src/assets/ package-lock.json package.json src/app.module.ts .gitignore cmd.txt && git commit -m "add src/assets/ && modified: package-lock.json package.json src/app.module.ts .gitignore cmd.txt" && git push -u origin main
+            
+            git add src/assets/ src/app.service.ts cmd.txt && git commit -m "modified: src/app.service.ts cmd.txt " && git push -u origin main
+
         change text to 
             'Ao Pai agradou darvos o reino! Busca o Reino e a sua Justica e tudo o resto lhe sera acrescentado!'
             modified:   src/app.service.ts cmd.txt
