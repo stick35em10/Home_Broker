@@ -1,7 +1,7 @@
 21.02.2025: nelca@DESKTOP-SO4SIUN:~/imersao-fullcycle-21/imersao/nestjs-api$
     13  
-        git branch try_creat_assets
-
+        git branch dev_try_creat_assets && git checkout dev_try_creat_assets
+            git add cmd.txt && git commit -m "update cmd.txt to adding new branch" && git push -u origin dev_try_creat_assets
 
         git add api.http src/assets/assets.service.spec.ts cmd.txt && git commit -m " modified api.http src/assets/assets.service.ts src/assets/dto/create-asset.dto.ts cmd.txt " && git push -u origin main
         git add src/assets/assets.service.ts src/assets/dto/create-asset.dto.ts cmd.txt && git commit -m " modified src/assets/assets.service.ts src/assets/dto/create-asset.dto.ts cmd.txt " && git push -u origin main
