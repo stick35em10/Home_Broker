@@ -1,1 +1,3 @@
-export class CreateAssetDto {}
+export class CreateAssetDto {
+    name: string;
+}

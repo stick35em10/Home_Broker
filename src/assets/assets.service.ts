@@ -2,9 +2,15 @@ import { Injectable }     from '@nestjs/common';
 import { CreateAssetDto } from './dto/create-asset.dto';
 import { UpdateAssetDto } from './dto/update-asset.dto';
 
+import { Asset } from './entities/asset.entity';
+import {Model}            from 'mongoose';
+import { InjectModel } from '@nestjs/mongoose';
+
 //camada de servicos
 @Injectable()
 export class AssetsService {
+  constructor(@InjectModel(Asset.name) private assetSchema: Model<Asset>) {}
+
   create(createAssetDto: CreateAssetDto) {
     return 'This action adds a new asset';
   }
