@@ -1,5 +1,7 @@
 21.02.2025
     2
+        git add api.http cmd.txt && git commit -m " add api.http cmd.txt" && git push -u origin main
+
          modified: src/assets/assets.controller.spec.ts src/assets/assets.controller.ts  src/assets/assets.module.ts src/assets/assets.service.ts
          git add src/assets/assets.controller.spec.ts src/assets/assets.controller.ts  src/assets/assets.module.ts src/assets/assets.service.ts cmd.txt && git commit -m " modified: src/assets/assets.controller.spec.ts src/assets/assets.controller.ts  src/assets/assets.module.ts src/assets/assets.service.ts cmd.txt" && git push -u origin main
     1

@@ -1,0 +1,51 @@
+
+POST http://localhost:10000/assets/
+content-type: application/json
+
+{
+    //"name"  : "Amazon",
+    //"symbol": "A1",
+    //"price" : 100,
+    //"image" : "AMZN.png"
+}
+
+###
+GET http://localhost:10000/assets/ HTTP/1.1
+
+###
+
+GET http://localhost:10000/assets/:1 HTTP/1.1
+
+###
+PATCH http://localhost:10000/assets/:1 HTTP/1.1
+content-type: application/json
+
+{
+    //"name"  : "Amazon",
+    //"symbol": "A1",
+    //"price" : 100,
+    //"image" : "AMZN.png"
+}
+
+###
+DELETE http://localhost:10000/assets/:1 HTTP/1.1
+content-type: application/json
+
+{
+    //"name"  : "Amazon",
+    //"symbol": "A1",
+    //"price" : 100,
+    //"image" : "AMZN.png"
+}
+
+###
+
+POST http://localhost:10000/assets/
+content-type: application/json
+
+{
+    //"name"  : "Amazon",
+    //"symbol": "A1",
+    //"price" : 100,
+    //"image" : "AMZN.png"
+}
