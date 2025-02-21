@@ -1,5 +1,9 @@
 21.02.2025
     2
+        git add cmd.txt && git commit -m "  modified:   cmd.txt  " && git push -u origin main
+        deleted:    dist
+            git rm dist/* && git commit -m " delete: dist/* " && git push -u origin main
+
         git add api.http cmd.txt && git commit -m " add api.http cmd.txt" && git push -u origin main
 
          modified: src/assets/assets.controller.spec.ts src/assets/assets.controller.ts  src/assets/assets.module.ts src/assets/assets.service.ts
