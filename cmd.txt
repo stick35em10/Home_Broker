@@ -1,5 +1,6 @@
 21.02.2025: nelca@DESKTOP-SO4SIUN:~/imersao-fullcycle-21/imersao/nestjs-api$
     11
+        git add cmd.txt src/assets/assets.module.ts && git commit -m "  modified: cmd.txt src/assets/assets.module.ts " && git push -u origin main
         git add api.http cmd.txt src/app.module.ts src/assets/assets.service.ts src/assets/entities/asset.entity.ts && git commit -m " modified:   api.http cmd.txt src/app.module.ts src/assets/assets.service.ts src/assets/entities/asset.entity.ts" && git push -u origin main
         git add package-lock.json package.json && git commit -m " run npm install @nestjs/mongoose mongoose than modified: package-lock.json package.json " && git push -u origin main
     7
