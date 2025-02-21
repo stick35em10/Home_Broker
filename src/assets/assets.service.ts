@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable }     from '@nestjs/common';
 import { CreateAssetDto } from './dto/create-asset.dto';
 import { UpdateAssetDto } from './dto/update-asset.dto';
 

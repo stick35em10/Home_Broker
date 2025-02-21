@@ -1,4 +1,7 @@
 21.02.2025
+    2
+         modified: src/assets/assets.controller.spec.ts src/assets/assets.controller.ts  src/assets/assets.module.ts src/assets/assets.service.ts
+         git add src/assets/assets.controller.spec.ts src/assets/assets.controller.ts  src/assets/assets.module.ts src/assets/assets.service.ts cmd.txt && git commit -m " modified: src/assets/assets.controller.spec.ts src/assets/assets.controller.ts  src/assets/assets.module.ts src/assets/assets.service.ts cmd.txt" && git push -u origin main
     1
         add /dist  in .gitignore
         nest g resource
