@@ -1,5 +1,20 @@
-21.02.2025
+21.02.2025: nelca@DESKTOP-SO4SIUN:~/imersao-fullcycle-21/imersao/nestjs-api$
+    11
+        git add api.http cmd.txt src/app.module.ts src/assets/assets.service.ts src/assets/entities/asset.entity.ts && git commit -m " modified:   api.http cmd.txt src/app.module.ts src/assets/assets.service.ts src/assets/entities/asset.entity.ts" && git push -u origin main
+        git add package-lock.json package.json && git commit -m " run npm install @nestjs/mongoose mongoose than modified: package-lock.json package.json " && git push -u origin main
+    7
+        npm install @nestjs/mongoose mongoose
+            git add package-lock.json package.json && git commit -m " run npm install @nestjs/mongoose mongoose than modified: package-lock.json package.json " && git push -u origin main
+            
+    3
+        docker compose up
+        git add docker-compose.yaml && git commit -m " add docker-compose.yaml with  image:mongo:8.0.3, environment and ports:- 27017:27017 " && git push -u origin main
     2
+        wsl.exe -l -v
+
+        wsl.exe --set-default Ubuntu-22.04
+           The operation completed successfully.    
+            
         git add cmd.txt && git commit -m "  modified:   cmd.txt  " && git push -u origin main
         deleted:    dist
             git rm dist/* && git commit -m " delete: dist/* " && git push -u origin main
@@ -34,7 +49,9 @@
 20.02.2025
     11:00PM
         criar um site que tenhe acesso ao dist como pasta de deploy
-
+            https://vercel.com/signup, 
+                Your account requires further verification. 
+                    Please contact registration@vercel.com to complete your registration.
         como usar um dist de nestjs no github
             modified:   .gitignore
             modified:   cmd.txt
@@ -66,6 +83,7 @@
     npm install -g @nestjs/cli
     nest new nestjs-api
         npm -- node package manage
+
     cd nestjs-api
         extensoes ideais para instalar: eslint, rest client, mongodb
         npm run start:dev

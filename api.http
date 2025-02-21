@@ -1,4 +1,24 @@
 
+@server = localhost
+@port = 10000
+@baseUrl = http://{{server}}:{{port}}
+
+@server_onrender = https://home-broker.onrender.com/
+@port = 10000
+@baseUrl_onrender = http://{{server_onrender}}
+//:{{port}}
+
+### Get Users
+GET {{baseUrl}}/assets/
+content-type: application/json
+
+
+### Get Users
+GET {{baseUrl_onrender}}/assets/
+content-type: application/json
+
+###
+
 POST http://localhost:10000/assets/
 content-type: application/json
 
@@ -10,6 +30,12 @@ content-type: application/json
 }
 
 ###
+
+### Example API call
+GET {{API_SERVER}}:{API_PORT}/assets/ HTTP/1.1
+
+###
+
 GET http://localhost:10000/assets/ HTTP/1.1
 
 ###
